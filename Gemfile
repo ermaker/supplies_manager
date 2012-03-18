@@ -38,3 +38,18 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem 'therubyracer'
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'cucumber-rails'
+  gem 'capybara'
+  gem 'guard'
+  gem 'guard-bundler'
+  gem 'guard-rspec'
+  gem 'guard-cucumber'
+  gem 'ruby_gntp'
+end
+
+gem 'yard'
+gem 'yard-rspec'
+gem 'yard-cucumber'
